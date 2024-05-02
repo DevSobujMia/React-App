@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import React from 'react';
 import PriceOption from '../../priceOption/PriceOption';
 
@@ -55,5 +56,9 @@ const priceOptions = [
         </div>
     );
 };
+
+PriceOptions.propTypes = {
+  
+}
 
 export default PriceOptions;
